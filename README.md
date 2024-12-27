@@ -45,7 +45,7 @@ Requirements: git, Python 3.9+
 2. Go to source code folder `cd hse_de_seminar_fastapi/<service-name>`
 3. Install requirements `pip install -r requirements.txt`
 4. Build image `docker build -t <username>/<service_image_name> .`
-5. Run image `docker run -d -p 8000:80 -v <app_name>_data:/app/data <username>/<service_image_name>`
+5. Run service `docker run -d -p 8000:80 -v <app_name>_data:/app/data <username>/<service_image_name>`
 
 
 #### Launch image from DockerHub
