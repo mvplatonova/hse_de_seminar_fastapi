@@ -29,11 +29,11 @@ URL shortening service based on FastAPI
 ### Local launch
 Requirements: git, Python 3.9+
 
-1. Clone project `git clone https://github.com/\<repo\>/\<service-name\>`
-2. Go to source code folder `cd \<service-name\>`
+1. Clone project `git clone https://github.com/<repo>`
+2. Go to source code folder `cd <service-name>`
 3. Install requirements `pip install -r requirements.txt`
-4. Build image `docker build -t \<username\>/\<service_image_name\> .`
-5. Run image `docker run -d -p 8000:80 -v \<app_name\>_data:/app/data \<username\>/\<service_image_name\>`
+4. Build image `docker build -t <username>/<service_image_name> .`
+5. Run image `docker run -d -p 8000:80 -v <app_name>_data:/app/data <username>/<service_image_name>`
 
 
 #### Launch image from DockerHub
